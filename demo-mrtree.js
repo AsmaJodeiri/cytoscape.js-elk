@@ -11,7 +11,7 @@ cytoscape({
     {
       selector: 'edge',
       style: {
-        'curve-style': 'taxi',
+        'curve-style': 'bezier',
         'taxi-direction': 'downward',
         'target-arrow-shape': 'triangle',
         'arrow-scale': 0.66,

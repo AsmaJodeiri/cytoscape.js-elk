@@ -4,7 +4,7 @@ body {
 }
 
 #cy {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   bottom: 0;
@@ -29,4 +29,43 @@ body {
 #demos li {
   display: inline;
   padding-right: 0.5em;
+}
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#content {
+
+  position: absolute;
+  top: 100px;
+  left: 320px;
+  width: 75%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+}
+#menu {
+  
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  width: 300px;
+  height: 100%;
+  background: rgb(45, 143, 199);
+}
+#top {
+  
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 100%;
+  height: 15%;
+  background: blue;
+}
+
+.f14 {
+  font-size: 14px;
 }
